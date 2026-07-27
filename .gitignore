@@ -1,0 +1,49 @@
+
+#  Geheimnisse / Secrets  – NIEMALS committen!
+# Falls du deinen API-Key doch mal in eine eigene Datei auslagerst:
+
+application-secrets.properties
+application-local.properties
+*.env
+.env
+
+#  Maven
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+#  Kompilierte Dateien
+
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+#  IntelliJ IDEA
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+#  Eclipse / STS
+
+.settings/
+.project
+.classpath
+.springBeans
+.sts4-cache
+bin/
+
+#  VS Code
+
+.vscode/
+
+#  Betriebssystem
+
+.DS_Store
+Thumbs.db

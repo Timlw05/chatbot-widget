@@ -1,0 +1,19 @@
+#  Beispiel-Konfiguration
+#
+#  Kopiere diese Datei nach  src/main/resources/application.properties
+#  und trage deine echten Werte ein. Die echte application.properties
+#  wird NICHT ins Repo gepusht (der Key bleibt so bei dir).
+# -------------------------------------------------------------------
+
+# Der API-Key wird aus einer Umgebungsvariable gelesen ->
+# so steht der echte Key an KEINER Stelle im Code.
+anthropic.api.key=${ANTHROPIC_API_KEY}
+
+# Server
+server.port=8080
+
+# Datenbank (Beispiel H2 – passe an, falls du etwas anderes nutzt)
+spring.datasource.url=jdbc:h2:mem:chatbotdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
