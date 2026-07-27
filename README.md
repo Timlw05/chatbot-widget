@@ -11,9 +11,7 @@ Antworten kommen von der **Claude API** von Anthropic.
 
 ## 📸 Screenshot
 
-<!-- Ersetze das hier durch einen echten Screenshot oder ein GIF!
-     Lade das Bild ins Repo (z.B. in einen Ordner /docs) und verlinke es so: -->
-![Chatbot Screenshot](docs/screenshot.png)
+![Chatbot Screenshot](src/screenshot.png)
 
 ---
 
@@ -46,7 +44,7 @@ Antworten kommen von der **Claude API** von Anthropic.
 
 1. Repo klonen:
    ```bash
-   git clone https://github.com/DEIN_USERNAME/chatbot-widget.git
+   git clone https://github.com/Timlw05/chatbot-widget.git
    cd chatbot-widget
    ```
 
@@ -93,4 +91,4 @@ aus einer Umgebungsvariable gelesen.
 
 ## 👤 Autor
 
-Tim Wilhelmi – [dein-github-link] 
+Tim Wilhelmi – https://github.com/Timlw05
